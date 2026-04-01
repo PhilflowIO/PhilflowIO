@@ -62,7 +62,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  3d-contrib:
+  contrib-3d:
     runs-on: ubuntu-latest
     permissions:
       contents: write
