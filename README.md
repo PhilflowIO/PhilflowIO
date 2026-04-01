@@ -1,22 +1,18 @@
 # Hi, I'm Philipp
 
-## GitHub Stats
+## GitHub Metrics
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=PhilflowIO&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PhilflowIO&layout=compact&theme=tokyonight&hide_border=true)
+![Metrics](github-metrics.svg)
 
 </div>
 
-## Streaks & Trophies
+## Streaks
 
 <div align="center">
 
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=PhilflowIO&theme=tokyonight&hide_border=true)
-
-![Trophy](https://github-profile-trophy.vercel.app/?username=PhilflowIO&theme=tokyonight&no-frame=true&column=7)
 
 </div>
 
