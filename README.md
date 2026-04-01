@@ -8,6 +8,14 @@
 
 </div>
 
+## Activity & Contributions
+
+<div align="center">
+
+![Activity](github-activity.svg)
+
+</div>
+
 ## Streaks
 
 <div align="center">
