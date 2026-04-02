@@ -19,25 +19,25 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">PhilflowIO/flow.oracle</span>
+                            <span class="diff-handle">PhilflowIO/flow-prism</span>
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">PhilflowIO/flow.claude-scratch</span>
+                            <span class="diff-handle">PhilflowIO/flow.oracle-base</span>
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">PhilflowIO/n8n-nodes-mcp-local</span>
+                            <span class="diff-handle">PhilflowIO/planw-werteprozess-v2</span>
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">PhilflowIO/media-processing-api</span>
+                            <span class="diff-handle">PhilflowIO/livekit-stt-pipe</span>
                         </div>
                     </section>
                     <section>
@@ -48,8 +48,8 @@
                             <div class="diff-box added"></div>
                             <div class="diff-box deleted"></div>
                             <div class="diff-stats">
-                                <span class="added"> +32.9k</span>
-                                <span class="deleted"> -2.28k</span>
+                                <span class="added">  +775k</span>
+                                <span class="deleted"> -1.33k</span>
                             </div>
                             <span> </span>
                         </div>
@@ -60,8 +60,8 @@
                             <div class="diff-box added"></div>
                             <div class="diff-box deleted"></div>
                             <div class="diff-stats">
-                                <span class="added"> +29.1k</span>
-                                <span class="deleted"> -1.79k</span>
+                                <span class="added"> +38.5k</span>
+                                <span class="deleted"> -1.08k</span>
                             </div>
                             <span> </span>
                         </div>
@@ -72,8 +72,8 @@
                             <div class="diff-box added"></div>
                             <div class="diff-box deleted"></div>
                             <div class="diff-stats">
-                                <span class="added"> +8.47k</span>
-                                <span class="deleted">    -36</span>
+                                <span class="added"> +19.8k</span>
+                                <span class="deleted"> -2.48k</span>
                             </div>
                             <span> </span>
                         </div>
@@ -84,8 +84,8 @@
                             <div class="diff-box added"></div>
                             <div class="diff-box deleted"></div>
                             <div class="diff-stats">
-                                <span class="added"> +6.77k</span>
-                                <span class="deleted">     -8</span>
+                                <span class="added"> +20.9k</span>
+                                <span class="deleted">   -300</span>
                             </div>
                             <span> </span>
                         </div>
