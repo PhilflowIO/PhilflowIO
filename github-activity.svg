@@ -19,25 +19,25 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">PhilflowIO/crawl4ai-camoufox</span>
+                            <span class="diff-handle">PhilflowIO/aibeavers_hackathon</span>
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">PhilflowIO/flow.raven</span>
+                            <span class="diff-handle">PhilflowIO/flow.scrapers</span>
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">PhilflowIO/flow-prism</span>
+                            <span class="diff-handle">PhilflowIO/planw-werteprozess-v2</span>
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">PhilflowIO/flow.claude</span>
+                            <span class="diff-handle">PhilflowIO/gmaps-scraper</span>
                         </div>
                     </section>
                     <section>
@@ -45,23 +45,11 @@
                             <div class="diff-box added"></div>
                             <div class="diff-box added"></div>
                             <div class="diff-box added"></div>
-                            <div class="diff-box deleted"></div>
+                            <div class="diff-box added"></div>
                             <div class="diff-box deleted"></div>
                             <div class="diff-stats">
-                                <span class="added"> +1.16m</span>
-                                <span class="deleted">  -462k</span>
-                            </div>
-                            <span> </span>
-                        </div>
-                        <div class="field">
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box deleted"></div>
-                            <div class="diff-box deleted"></div>
-                            <div class="diff-stats">
-                                <span class="added">  +937k</span>
-                                <span class="deleted">  -397k</span>
+                                <span class="added"> +69.5k</span>
+                                <span class="deleted"> -6.44k</span>
                             </div>
                             <span> </span>
                         </div>
@@ -72,8 +60,8 @@
                             <div class="diff-box added"></div>
                             <div class="diff-box deleted"></div>
                             <div class="diff-stats">
-                                <span class="added">  +775k</span>
-                                <span class="deleted"> -1.33k</span>
+                                <span class="added"> +30.1k</span>
+                                <span class="deleted">   -551</span>
                             </div>
                             <span> </span>
                         </div>
@@ -84,8 +72,20 @@
                             <div class="diff-box added"></div>
                             <div class="diff-box deleted"></div>
                             <div class="diff-stats">
-                                <span class="added">  +604k</span>
-                                <span class="deleted">  -143k</span>
+                                <span class="added"> +20.1k</span>
+                                <span class="deleted"> -2.50k</span>
+                            </div>
+                            <span> </span>
+                        </div>
+                        <div class="field">
+                            <div class="diff-box added"></div>
+                            <div class="diff-box added"></div>
+                            <div class="diff-box added"></div>
+                            <div class="diff-box added"></div>
+                            <div class="diff-box deleted"></div>
+                            <div class="diff-stats">
+                                <span class="added">   +15k</span>
+                                <span class="deleted"> -2.38k</span>
                             </div>
                             <span> </span>
                         </div>
