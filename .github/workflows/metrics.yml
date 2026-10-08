@@ -36,6 +36,21 @@ jobs:
           plugin_traffic: yes
           config_timezone: Europe/Berlin
 
+      # Upstream projects with merged contributions
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-notable.svg
+          base: ""
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_repositories: yes
+          plugin_notable_indepth: yes
+          plugin_notable_types: commit
+          plugin_notable_filter: stars:>100
+          plugin_notable_self: no
+          config_timezone: Europe/Berlin
+
   snake:
     runs-on: ubuntu-latest
     permissions:
