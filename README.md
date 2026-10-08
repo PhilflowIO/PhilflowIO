@@ -28,6 +28,14 @@
 
 </div>
 
+## Open Source Contributions
+
+<div align="center">
+
+![Notable Contributions](github-notable.svg)
+
+</div>
+
 ## Activity & Contributions
 
 <div align="center">
