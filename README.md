@@ -14,6 +14,8 @@
 
 **In review:** [qax-os/excelize](https://github.com/qax-os/excelize/pulls?q=author%3APhilflowIO+is%3Aopen) (6) · [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [docker/mcp-registry](https://github.com/docker/mcp-registry/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [omarroth/doubletake](https://github.com/omarroth/doubletake/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [zfutura/pycheval](https://github.com/zfutura/pycheval/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [CynepMyx/deja](https://github.com/CynepMyx/deja/pulls?q=author%3APhilflowIO+is%3Aopen) (1)
 
+**Fix adopted upstream by the maintainer:** [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) (★ 23.2k): [Use correct n8n operator names in unary operator detection](https://github.com/czlonkowski/n8n-mcp/pull/596) → [landed](https://github.com/czlonkowski/n8n-mcp/pull/672)
+
 **Listed in:** [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) (★ 97.3k)
 <!-- CONTRIB:END -->
 

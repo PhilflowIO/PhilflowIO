@@ -21,6 +21,11 @@ USER = "PhilflowIO"
 OWN_OWNERS = {"PhilflowIO", "PhilflowIOOrg"}
 # Merged PRs that only add a list entry for one of my projects.
 LISTING_REPOS = {"punkpeye/awesome-mcp-servers", "modelcontextprotocol/servers"}
+# Closed PRs whose fix the maintainer re-landed in their own PR. GitHub has no
+# signal for this, so each entry is checked by hand: my PR URL -> their PR URL.
+ADOPTED = {
+    "https://github.com/czlonkowski/n8n-mcp/pull/596": "https://github.com/czlonkowski/n8n-mcp/pull/672",
+}
 
 README = Path(__file__).resolve().parent.parent / "README.md"
 START, END = "<!-- CONTRIB:START -->", "<!-- CONTRIB:END -->"
@@ -75,7 +80,7 @@ def clean(title: str) -> str:
 
 
 def render(prs: list[dict]) -> str:
-    merged, review, listed = defaultdict(list), defaultdict(list), {}
+    merged, review, listed, adopted = defaultdict(list), defaultdict(list), {}, []
     for pr in prs:
         repo = pr["repository"]
         name = repo["nameWithOwner"]
@@ -85,7 +90,9 @@ def render(prs: list[dict]) -> str:
             if pr["state"] == "MERGED":
                 listed[name] = repo
             continue
-        if pr["state"] == "MERGED":
+        if pr["url"] in ADOPTED:
+            adopted.append(pr)
+        elif pr["state"] == "MERGED":
             merged[name].append(pr)
         elif pr["state"] == "OPEN":
             review[name].append(pr)
@@ -116,6 +123,13 @@ def render(prs: list[dict]) -> str:
         open_order = sorted(review, key=lambda r: -repos[r]["stargazerCount"])
         lines += ["", "**In review:** " + " · ".join(
             f"[{n}]({repos[n]['url']}/pulls?q=author%3A{USER}+is%3Aopen) ({len(review[n])})" for n in open_order
+        )]
+    if adopted:
+        lines += ["", "**Fix adopted upstream by the maintainer:** " + " · ".join(
+            f"[{p['repository']['nameWithOwner']}]({p['repository']['url']}) "
+            f"(★ {stars(p['repository']['stargazerCount'])}): "
+            f"[{clean(p['title'])}]({p['url']}) → [landed]({ADOPTED[p['url']]})"
+            for p in adopted
         )]
     if listed:
         lines += ["", "**Listed in:** " + " · ".join(
