@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            4783 Commits
+                            4785 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -219,14 +219,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="189.06080226596393" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="189.06080226596393" y="0" width="156.78924462066965" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="345.85004688663355" y="0" width="85.45744701009322" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="431.3074938967268" y="0" width="17.032543652634363" height="8" fill="#3D6117"/>
-                    <rect mask="url(#languages-bar)" x="448.34003754936117" y="0" width="8.838744334820632" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="457.1787818841818" y="0" width="1.2312135727368285" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="458.4099954569186" y="0" width="0.9853818768795671" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="459.39537733379814" y="0" width="0.6046226662018315" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="189.11033803341027" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="189.11033803341027" y="0" width="156.7605788697389" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="345.8709169031492" y="0" width="85.44182283958908" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="431.3127397427383" y="0" width="17.02942959557487" height="8" fill="#3D6117"/>
+                    <rect mask="url(#languages-bar)" x="448.34216933831317" y="0" width="8.837128348696995" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="457.17929768701015" y="0" width="1.2309884701687026" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="458.41028615717886" y="0" width="0.9852017196785892" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="459.39548787685743" y="0" width="0.6045121231425906" height="8" fill="#427819"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -238,7 +238,7 @@
                                 Python
                             </div>
                             <small>
-                                <div>41.1%</div>
+                                <div>41.11%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -249,7 +249,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>18.58%</div>
+                                <div>18.57%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -1392,7 +1392,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>zfutura/pycheval</span>
-                                        <span>starred 6 days ago</span>
+                                        <span>starred 7 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Factur-X/ZUGFeRD parsing and generation library for Python</div>
