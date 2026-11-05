@@ -25,6 +25,10 @@ LISTING_REPOS = {"punkpeye/awesome-mcp-servers", "modelcontextprotocol/servers"}
 # signal for this, so each entry is checked by hand: my PR URL -> their PR URL.
 ADOPTED = {
     "https://github.com/czlonkowski/n8n-mcp/pull/596": "https://github.com/czlonkowski/n8n-mcp/pull/672",
+    # Maintainer: "the core py.detach() fix is perfect", re-implemented in #142.
+    "https://github.com/deedy5/primp/pull/141": "https://github.com/deedy5/primp/pull/142",
+    # Applied by hand: "mirror_bufffer modification request by @PhilflowIO ... fixes #615".
+    "https://github.com/FDH2/UxPlay/pull/615": "https://github.com/FDH2/UxPlay/commit/b1be2bd26629f822fa1f6ebbdb0c3a2ed30aa62f",
 }
 
 README = Path(__file__).resolve().parent.parent / "README.md"
@@ -125,12 +129,13 @@ def render(prs: list[dict]) -> str:
             f"[{n}]({repos[n]['url']}/pulls?q=author%3A{USER}+is%3Aopen) ({len(review[n])})" for n in open_order
         )]
     if adopted:
-        lines += ["", "**Fix adopted upstream by the maintainer:** " + " · ".join(
-            f"[{p['repository']['nameWithOwner']}]({p['repository']['url']}) "
+        adopted.sort(key=lambda p: -p["repository"]["stargazerCount"])
+        lines += ["", "**Fixes adopted upstream by the maintainer:**", ""] + [
+            f"- [{p['repository']['nameWithOwner']}]({p['repository']['url']}) "
             f"(★ {stars(p['repository']['stargazerCount'])}): "
             f"[{clean(p['title'])}]({p['url']}) → [landed]({ADOPTED[p['url']]})"
             for p in adopted
-        )]
+        ]
     if listed:
         lines += ["", "**Listed in:** " + " · ".join(
             f"[{n}]({r['url']}) (★ {stars(r['stargazerCount'])})" for n, r in listed.items()

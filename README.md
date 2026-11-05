@@ -14,7 +14,11 @@
 
 **In review:** [qax-os/excelize](https://github.com/qax-os/excelize/pulls?q=author%3APhilflowIO+is%3Aopen) (6) · [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [docker/mcp-registry](https://github.com/docker/mcp-registry/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [omarroth/doubletake](https://github.com/omarroth/doubletake/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [zfutura/pycheval](https://github.com/zfutura/pycheval/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [CynepMyx/deja](https://github.com/CynepMyx/deja/pulls?q=author%3APhilflowIO+is%3Aopen) (1)
 
-**Fix adopted upstream by the maintainer:** [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) (★ 23.2k): [Use correct n8n operator names in unary operator detection](https://github.com/czlonkowski/n8n-mcp/pull/596) → [landed](https://github.com/czlonkowski/n8n-mcp/pull/672)
+**Fixes adopted upstream by the maintainer:**
+
+- [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) (★ 23.2k): [Use correct n8n operator names in unary operator detection](https://github.com/czlonkowski/n8n-mcp/pull/596) → [landed](https://github.com/czlonkowski/n8n-mcp/pull/672)
+- [FDH2/UxPlay](https://github.com/FDH2/UxPlay) (★ 3.3k): [Keep unused AES-CTR keystream when a mirror frame is shorter than it](https://github.com/FDH2/UxPlay/pull/615) → [landed](https://github.com/FDH2/UxPlay/commit/b1be2bd26629f822fa1f6ebbdb0c3a2ed30aa62f)
+- [deedy5/primp](https://github.com/deedy5/primp) (★ 622): [Release GIL during builder + cache pyo3-log lookups](https://github.com/deedy5/primp/pull/141) → [landed](https://github.com/deedy5/primp/pull/142)
 
 **Listed in:** [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) (★ 97.3k)
 <!-- CONTRIB:END -->
