@@ -3,7 +3,7 @@
 ## Open Source Contributions
 
 <!-- CONTRIB:START -->
-**10 merged pull requests in 4 upstream projects** · 11 more in review
+**10 merged pull requests in 4 upstream projects** · 14 more in review
 
 | Project | ★ | Merged |
 |:--|--:|:--|
@@ -12,15 +12,15 @@
 | <img src="https://avatars.githubusercontent.com/u/9290574?u=2db09b4065c86368d61a90c67d0bbc9370ac5b43&v=4&s=40" width="20" height="20" align="center"> **[natelindev/tsdav](https://github.com/natelindev/tsdav)**<br><sub>WebDAV, CALDAV, and CARDDAV client for js runtimes and the Browser</sub> | 361 | [Answer HTTP Digest challenges for authMethod 'Digest'](https://github.com/natelindev/tsdav/pull/284) |
 | <img src="https://avatars.githubusercontent.com/u/46783235?v=4&s=40" width="20" height="20" align="center"> **[zfutura/pycheval](https://github.com/zfutura/pycheval)**<br><sub>Factur-X/ZUGFeRD parsing and generation library for Python</sub> | 27 | [Add payment means codes 54 and 68](https://github.com/zfutura/pycheval/pull/72) |
 
-**In review:** [qax-os/excelize](https://github.com/qax-os/excelize/pulls?q=author%3APhilflowIO+is%3Aopen) (6) · [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [docker/mcp-registry](https://github.com/docker/mcp-registry/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [omarroth/doubletake](https://github.com/omarroth/doubletake/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [zfutura/pycheval](https://github.com/zfutura/pycheval/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [CynepMyx/deja](https://github.com/CynepMyx/deja/pulls?q=author%3APhilflowIO+is%3Aopen) (1)
+**In review:** [qax-os/excelize](https://github.com/qax-os/excelize/pulls?q=author%3APhilflowIO+is%3Aopen) (6) · [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [docker/mcp-registry](https://github.com/docker/mcp-registry/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [omarroth/doubletake](https://github.com/omarroth/doubletake/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [zfutura/pycheval](https://github.com/zfutura/pycheval/pulls?q=author%3APhilflowIO+is%3Aopen) (1) · [CynepMyx/deja](https://github.com/CynepMyx/deja/pulls?q=author%3APhilflowIO+is%3Aopen) (4)
 
 **Fixes adopted upstream by the maintainer:**
 
 - [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) (★ 23.2k): [Use correct n8n operator names in unary operator detection](https://github.com/czlonkowski/n8n-mcp/pull/596) → [landed](https://github.com/czlonkowski/n8n-mcp/pull/672)
 - [FDH2/UxPlay](https://github.com/FDH2/UxPlay) (★ 3.3k): [Keep unused AES-CTR keystream when a mirror frame is shorter than it](https://github.com/FDH2/UxPlay/pull/615) → [landed](https://github.com/FDH2/UxPlay/commit/b1be2bd26629f822fa1f6ebbdb0c3a2ed30aa62f)
-- [deedy5/primp](https://github.com/deedy5/primp) (★ 622): [Release GIL during builder + cache pyo3-log lookups](https://github.com/deedy5/primp/pull/141) → [landed](https://github.com/deedy5/primp/pull/142)
+- [deedy5/primp](https://github.com/deedy5/primp) (★ 623): [Release GIL during builder + cache pyo3-log lookups](https://github.com/deedy5/primp/pull/141) → [landed](https://github.com/deedy5/primp/pull/142)
 
-**Listed in:** [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) (★ 97.3k)
+**Listed in:** [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) (★ 97.4k)
 <!-- CONTRIB:END -->
 
 ## Contribution Snake
