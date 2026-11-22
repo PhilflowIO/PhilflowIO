@@ -21,7 +21,7 @@
 - [FDH2/UxPlay](https://github.com/FDH2/UxPlay) (★ 3.4k): [Keep unused AES-CTR keystream when a mirror frame is shorter than it](https://github.com/FDH2/UxPlay/pull/615) → [landed](https://github.com/FDH2/UxPlay/commit/b1be2bd26629f822fa1f6ebbdb0c3a2ed30aa62f)
 - [deedy5/primp](https://github.com/deedy5/primp) (★ 634): [Release GIL during builder + cache pyo3-log lookups](https://github.com/deedy5/primp/pull/141) → [landed](https://github.com/deedy5/primp/pull/142)
 
-**Listed in:** [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) (★ 98.3k)
+**Listed in:** [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) (★ 98.4k)
 <!-- CONTRIB:END -->
 
 ## Contribution Snake
