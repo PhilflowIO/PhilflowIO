@@ -29,6 +29,9 @@ ADOPTED = {
     "https://github.com/deedy5/primp/pull/141": "https://github.com/deedy5/primp/pull/142",
     # Applied by hand: "mirror_bufffer modification request by @PhilflowIO ... fixes #615".
     "https://github.com/FDH2/UxPlay/pull/615": "https://github.com/FDH2/UxPlay/commit/b1be2bd26629f822fa1f6ebbdb0c3a2ed30aa62f",
+    # Re-implemented for every session channel, shipped in v0.6.0:
+    # "PR #74 supplied the core UDP diagnosis and live UxPlay verification".
+    "https://github.com/omarroth/doubletake/pull/74": "https://github.com/omarroth/doubletake/commit/37731387906372800314e3d8edd10292748af4fc",
 }
 
 README = Path(__file__).resolve().parent.parent / "README.md"
