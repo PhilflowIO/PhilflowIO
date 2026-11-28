@@ -20,7 +20,7 @@
 - [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) (★ 23.3k): [Use correct n8n operator names in unary operator detection](https://github.com/czlonkowski/n8n-mcp/pull/596) → [landed](https://github.com/czlonkowski/n8n-mcp/pull/672)
 - [FDH2/UxPlay](https://github.com/FDH2/UxPlay) (★ 3.4k): [Keep unused AES-CTR keystream when a mirror frame is shorter than it](https://github.com/FDH2/UxPlay/pull/615) → [landed](https://github.com/FDH2/UxPlay/commit/b1be2bd26629f822fa1f6ebbdb0c3a2ed30aa62f)
 - [deedy5/primp](https://github.com/deedy5/primp) (★ 638): [Release GIL during builder + cache pyo3-log lookups](https://github.com/deedy5/primp/pull/141) → [landed](https://github.com/deedy5/primp/pull/142)
-- [omarroth/doubletake](https://github.com/omarroth/doubletake) (★ 171): [Send UDP media and timing to the RTSP peer's address](https://github.com/omarroth/doubletake/pull/74) → [landed](https://github.com/omarroth/doubletake/commit/37731387906372800314e3d8edd10292748af4fc)
+- [omarroth/doubletake](https://github.com/omarroth/doubletake) (★ 173): [Send UDP media and timing to the RTSP peer's address](https://github.com/omarroth/doubletake/pull/74) → [landed](https://github.com/omarroth/doubletake/commit/37731387906372800314e3d8edd10292748af4fc)
 
 **Listed in:** [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) (★ 98.6k)
 <!-- CONTRIB:END -->
